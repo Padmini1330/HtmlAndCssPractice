@@ -1,0 +1,40 @@
+.media 
+ {
+    display: flex;
+    align-items: flex-start;
+    background: rgb(235, 179, 97);
+    padding: 1em;
+    border-radius: 3px;
+    max-width: 60%;
+    margin-left: 20%;
+    margin-top: 10%;
+  }
+  .media-object 
+  {
+    margin-left: 1em;
+    order: 1;
+    size: 0vh;
+  }
+  .media-body 
+  {
+    flex: 1;
+  }
+  .media-heading
+  {
+    margin: 0 0 .5em;
+  }
+  p{
+    font-family: serif;
+    font-size: large;
+    color: rgb(87, 22, 44);
+    font-weight: bold;
+  }
+  h3
+  {
+      color: rgb(87, 22, 44);
+      font-size: 30px;
+  }
+  body
+  {
+      background-color: floralwhite;
+  }
