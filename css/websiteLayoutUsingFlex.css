@@ -1,0 +1,71 @@
+body
+{
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    margin: 0;
+    height: 100%;
+    padding: 2em;
+}
+.mainContainerItem
+{
+    background:palevioletred;
+}
+.leftSideBar
+{
+    background:orange ;
+    padding-top: 20%;
+    flex:1;
+}
+.outerContainer
+{
+    display: flex;
+    flex-direction: column;
+    flex: 5;
+}
+
+.innerContainer
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.mainContainer
+{
+    background: palevioletred;
+    flex: 4;
+}
+
+.innerContainer aside
+{
+    background:tomato ;
+    flex: 1;
+}
+
+header
+{
+    background:rgb(113, 168, 113); 
+    height: 7vh;
+    padding-right: 20%;
+}
+
+footer
+{
+    background:dodgerblue;
+    text-align: center;
+    height: 7vh;
+}
+
+header,footer,article,nav,aside{
+    padding: lem;
+}
+aside
+{
+    padding-top: 20%;
+}
+article
+{
+    padding: 10px;
+    margin: 10px;
+    background-color:lightpink;
+}
