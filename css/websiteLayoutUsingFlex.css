@@ -38,20 +38,20 @@ body
 
 .innerContainer aside
 {
-    background:tomato ;
+    background:orange ;
     flex: 1;
 }
 
 header
 {
-    background:rgb(113, 168, 113); 
+    background:tomato; 
     height: 7vh;
     padding-right: 20%;
 }
 
 footer
 {
-    background:dodgerblue;
+    background:thistle;
     text-align: center;
     height: 7vh;
 }
